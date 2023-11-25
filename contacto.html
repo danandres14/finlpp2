@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FRIGORÍFICO FV</title>
+    <link rel="stylesheet" href="./estilos.css">
+
+</head>
+
+<body>
+
+
+    <header>
+        <div class="header">
+            <div class="logo">
+                <img src="./img/logo.jpg" alt="logofv">
+
+            </div>
+            <button class="modo" id="darkModeToggle">Modo Claro / Oscuro</button>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="index.html">INICIO</a></li>
+                    <li><a href="servicios.html">SERVICIOS</a></li>
+                    <li><a href="contacto.html">CONTACTO</a></li>
+
+                </ul>
+
+            </nav>
+    </header>
+    <hr>
+
+    <section id="contacto">
+        <div class="container">
+            <h2>CONTÁCTANOS</h2>
+            <ul>
+                <li>TELÉFONO: (011) +54 1162962928 </li>
+                <li>CORREO: frigorificofv@fv.com.ar </li>
+                <li>DIRECCIÓN: Avenida Segurola 4310</li>
+
+            </ul>
+        </div>
+        <div class="mapa">
+
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3285.6189202750097!2d-58.59605842474466!3d-34.563202872968716!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb986a71f520b%3A0xaee3ced396c7fba8!2sInstituto%20Nuestra%20Se%C3%B1ora%20De%20Lujan%20Del%20Buen%20Viaje!5e0!3m2!1ses!2sar!4v1690569123612!5m2!1ses!2sar"
+                width="1519" height="300" style="border:solid;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </section>
+
+
+    <section id="ESCRIBINOS">
+        <h2>Dejanos tu Mensaje</h2>
+
+
+        <form>
+            <p>
+                <label for="fname">Nombres:</label>
+                <br>
+                <input class="box" type="text" id="fname" name="fname">
+                <br>
+                <label for="lname">Apellidos:</label>
+                <br>
+
+
+                <input class="box" type="text" id="lname" name="lname">
+                <br>
+
+                <label for="lname">N° Contacto:</label>
+                <br>
+                <input class="box" type="tel" id="lname" name="lname">
+                <br>
+
+
+                <label for="lname">Comentario:</label>
+                <br>
+                <textarea class="ttex" id="story" name="story" rows="5" cols="66">
+
+                    </textarea>
+
+
+                <br>
+                <br>
+                <label for="lname">Servicio deseado:</label><br><br>
+                <input type="radio" name="serv"> FAENA
+                <input type="radio" name="serv"> DESPOSTE
+                <input type="radio" name="serv"> PRODUCTOS
+                <br>
+                <br>
+                <label for="lname">Deseo Recibir:</label><br><br>
+                <input type="checkbox" name="serv"> Promociones
+                <input type="checkbox" name="serv"> Descuentos
+                <input type="checkbox" name="serv"> Novedades
+                <br>
+            </p>
+
+
+            <label class="tc" for="consumo">Tipo Consumo:</label>
+            <input list="tcons" id="consumo" name="consumo" />
+
+            <datalist id="tcons">
+                <option value="Exportacion"></option>
+                <option value="Interno"></option>
+
+
+            </datalist>
+
+
+
+
+            <div class="enviar">
+                <br>
+                <button class="enviartxt">ENVIAR</button>
+            </div>
+
+        </form>
+
+    </section>
+
+
+
+</body>
+<hr>
+
+
+
+
+
+
+
+
+<footer>
+    <div class="container1">
+
+        <p class="copy">&copy; FRIGORIFICO FV. by Saavedra Federico y Lopez Daniel, Nuestra sra del Buen Viaje (2do año
+            - Analista de Sisitemas) 2023.</p>
+    </div>
+
+</footer>
+
+
+<script src="./scrip.js"></script>
+
+</html>

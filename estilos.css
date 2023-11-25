@@ -1,0 +1,536 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif, Courier, monospace;
+    margin: 0;
+    color: #6f6f6f;
+
+
+}
+
+h1 {
+    font-size: 3.5em;
+}
+
+h2 {
+    font-size: 2.7em;
+}
+
+h3 {
+    font-size: 2em;
+
+}
+
+p {
+    font-size: 1.9em;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    font-size: 1.25em;
+}
+
+
+
+button {
+    font-size: 0.9em;
+    font-weight: bold;
+    padding: 10px 30px;
+    border-radius: 71px;
+    border: 2px solid rgb(174, 55, 3);
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+    color: #fafafa;
+    background-color: #1b3039;
+}
+
+.sen {
+    font-size: 0.9em;
+    font-weight: bold;
+    padding: 10px 30px;
+    border-radius: 71px;
+    border: 2px solid rgb(174, 55, 3);
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+    color: rgb(244, 241, 240);
+    background-color: #1b3039;
+}
+
+.sen:hover {
+    font-size: 1em;
+    font-weight: bold;
+    padding: 10px 30px;
+    border-radius: 71px;
+    border: 3px solid rgb(174, 55, 3);
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+    color: rgb(174, 55, 3);
+    background-color: #4c595f77;
+
+}
+
+button:hover {
+    color: rgb(174, 55, 3);
+    font-size: 1em;
+
+}
+
+#sobremi .container {
+    max-width: 90%;
+}
+
+.container {
+    max-width: 800px;
+    margin: auto;
+}
+
+.header {
+    background-color: #1b3039;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 25px;
+    padding: 50px 2%;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.tit {
+    color: #1b3039;
+    ;
+}
+
+article {
+    font-size: 1.5em;
+    color: #6f6f6f;
+}
+
+.header .logo {
+    cursor: pointer;
+}
+
+.header .logo img {
+    height: 120px;
+    width: auto;
+    transition: all 0.3s;
+}
+
+.header .logo img:hover {
+    transform: scale(1.2);
+}
+
+.header .nav-links {
+    list-style: none;
+}
+
+.header .nav-links li {
+    display: inline-block;
+    padding: 0 20px;
+}
+
+.header .nav-links li:hover {
+    transform: scale(1.1);
+}
+
+.header .nav-links a {
+    font-size: 22px;
+    color: #f4f4f4;
+    text-decoration: none;
+}
+
+.header .nav-links li a:hover {
+    color: rgb(174, 55, 3);
+    border-left: 1px solid rgb(174, 55, 3);
+}
+
+
+
+
+
+#info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height: 90vh;
+    background-image: linear-gradient(0deg,
+            rgba(0, 0, 0, 0.5),
+            rgba(0, 0, 0, 0.5)), url("img/vaca1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    margin-top: 40px;
+}
+
+#info h1 {
+    color: white;
+}
+
+#info h3 {
+    color: #eceff1;
+}
+
+
+#sobremi .container {
+    text-align: center;
+    padding-top: 19px;
+    padding-bottom: 29px;
+
+}
+
+#servicios {
+
+    color: white;
+    text-align: center;
+    margin-top: 34px;
+}
+
+#servicios .container {
+    padding: 45px 0px;
+    max-width: 100%;
+}
+
+#servicios h2 {
+    margin-top: 0;
+}
+
+#servicios p {
+    display: none;
+}
+
+#servicios h2 {
+    color: #1b3039;
+
+
+
+
+
+}
+
+
+#servicios .carta {
+    background-size: cover;
+    background-position: center center;
+    padding: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+
+.carta:first-child {
+    background-image: linear-gradient(0deg,
+            rgba(0, 0, 0, 0.5),
+            rgba(0, 0, 0, 0.5)), url("img/faena.jpg");
+
+
+}
+
+.carta:nth-child(2) {
+    background-image: linear-gradient(0deg,
+            rgba(0, 0, 0, 0.7),
+            rgba(0, 0, 0, 0.7)), url("img/desposte.jpg");
+
+
+}
+
+.carta:nth-child(3) {
+    background-image: linear-gradient(0deg,
+            rgba(0, 0, 0, 0.5),
+            rgba(0, 0, 0, 0.5)), url("img/productos.jpg");
+
+
+}
+
+#contacto .container {
+    text-align: center;
+    padding-top: 50px;
+    margin-top: 30px;
+
+
+}
+
+#contacto li {
+    margin: 10px 0px;
+    font-weight: bold;
+    align-items: center;
+
+}
+
+.mapa {
+    display: flex;
+    margin-top: 5px;
+    margin-bottom: 50px;
+
+}
+
+.UBICACION {
+    text-align: center;
+    padding: 5px 5px;
+}
+
+
+
+#ESCRIBINOS {
+    text-align: center;
+    padding-bottom: 60px;
+
+
+}
+
+form {
+    text-align: center;
+    padding: 20px;
+
+
+
+}
+
+footer .container {
+    text-align: left;
+    margin: 30px;
+
+
+}
+
+footer {
+    background-color: #1b3039;
+    padding: 2px;
+
+
+}
+
+
+
+label {
+    height: 50px;
+}
+
+.input {
+    padding: 50px;
+
+}
+
+.enviar {
+    padding: 20px;
+}
+
+.copy {
+    padding: 10px;
+    color: white;
+}
+
+.box {
+    border-style: none;
+    border-bottom: 0.5px solid gray;
+    width: 40%;
+    height: 20px;
+    margin-bottom: 10px;
+    margin-top: 6px;
+    border-radius: 10px;
+}
+
+hr {
+    height: 5px;
+    background-color: rgb(174, 55, 3);
+    margin: 0px;
+    border-color: rgb(174, 55, 3);
+}
+
+details {
+
+    font-size: 0.7em;
+    color: #6f6f6f;
+
+
+}
+
+
+summary {
+    color: rgb(174, 55, 3);
+
+    border: 2px solid rgb(174, 55, 3);
+
+    border-radius: 20px;
+    font-size: 1.5em;
+}
+
+video {
+    max-width: 100%;
+}
+
+img {
+    max-width: 70%;
+
+}
+
+.container1 {
+    display: flex;
+    align-items: center;
+
+}
+
+audio {
+    opacity: 50%;
+    margin-left: 30px;
+}
+
+
+#est {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.tituloexp {
+    justify-content: center;
+    display: flex;
+    font-size: 2em;
+}
+
+table {
+    font-size: 24px;
+    table-layout: fixed;
+    border-collapse: collapse;
+    margin-bottom: 30px;
+
+
+
+
+}
+
+thead {
+    border: 3px solid rgb(174, 55, 3);
+
+}
+
+th {
+    border: 3px solid rgb(174, 55, 3);
+    padding: 1px 50px;
+    text-transform: uppercase;
+}
+
+tbody {
+    border: 3px solid rgb(174, 55, 3);
+}
+
+td {
+    border: 3px solid rgb(174, 55, 3);
+    padding: 1px;
+    text-align: center;
+}
+
+.infoexp {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.infoexp2 {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.tituloexp {
+    margin: 50px auto;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.copy {
+    font-size: 0.9em;
+    color: #b2adad;
+}
+
+.vermasinfo {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+
+/* Estilos normales */
+
+
+
+
+/* Estilos para el modo oscuro */
+body.dark-mode {
+
+    background-color: #1b3039;
+
+}
+
+.body.dark-mode .content {
+
+    border-color: #fff;
+}
+
+.button .modo {
+
+    font-weight: bold;
+    padding: 10px 30px;
+
+    border: 2px solid rgba(0, 0, 0, 0.5);
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+    color: white;
+    background-color: rgb(226, 98, 43);
+
+}
+
+.link {
+    text-decoration: none;
+    color: rgb(174, 55, 3);
+    text-transform: uppercase;
+}
+
+.link:hover {
+    font-size: 1.1em;
+}
+
+.tc {
+    font-size: 1.5em;
+}
+
+.ttex {
+    border-radius: 10px;
+    border-bottom: 1px solid;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+
+.info3 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 40px;
+
+}
+
+.info3 li {
+
+    font-size: 1.5em;
+
+    text-align: center;
+}
+
+.info4 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.info4 li {
+
+    font-size: 1.5em;
+
+    text-align: center;
+}
